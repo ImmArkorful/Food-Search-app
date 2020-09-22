@@ -1,0 +1,19 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# macOS
+.DS_Store
+
+Client ID
+ntwZMve13AmPDKa2U5dVOQ
+
+API Key
+UWVo-bdxLvndr2_t29PT4KAjWqlaUC7qY0QWT92BjUkPH_yeSeDIDkffMjYoYNy5q7CWQXzI3p9XwPqet3FdmQsZDL1uUvZYNUp-COauG8DufvijZZkn0dWLTtZlX3Yx
