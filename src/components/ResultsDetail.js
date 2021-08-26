@@ -1,5 +1,5 @@
-import React from 'react';
-import { View, Image, StyleSheet, Text } from 'react-native';
+import React from "react";
+import { View, Image, StyleSheet, Text } from "react-native";
 
 const ResultsDetail = ({ result }) => {
   return (
@@ -9,7 +9,7 @@ const ResultsDetail = ({ result }) => {
         source={{
           uri:
             result.image_url ||
-            'https://restaurant.opentable.com/news/wp-content/uploads/sites/100/2016/03/ek_graciasmadre_1016-2-1300x866.jpg',
+            "https://restaurant.opentable.com/news/wp-content/uploads/sites/100/2016/03/ek_graciasmadre_1016-2-1300x866.jpg",
         }}
       />
       <Text style={styles.name}>{result.name}</Text>
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
   name: {
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
 });
 
